@@ -36,6 +36,13 @@ return require('packer').startup(function(use)
   use 'inkarkat/vim-ReplaceWithRegister'
   use 'numToStr/Comment.nvim'
 
+  use 'nvim-lua/plenary.nvim' -- common utilitie  use 'nvim-lua/plenary.nvim' -- common utilitiess
+
+  use {
+    'phaazon/hop.nvim',
+    branch = 'v2', -- optional but strongly recommended
+  }
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then

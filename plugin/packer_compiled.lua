@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim",
     url = "https://github.com/tjdevries/colorbuddy.nvim"
   },
+  ["hop.nvim"] = {
+    loaded = true,
+    path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/hop.nvim",
+    url = "https://github.com/phaazon/hop.nvim"
+  },
   ["maximize.nvim"] = {
     loaded = true,
     path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/maximize.nvim",
@@ -103,6 +108,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["vim-ReplaceWithRegister"] = {
     loaded = true,
