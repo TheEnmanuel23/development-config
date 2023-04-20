@@ -34,6 +34,7 @@ return require('packer').startup(function(use)
     tag = "*", -- Use for stability; omit to use `main` branch for the latest features
   })
   use 'inkarkat/vim-ReplaceWithRegister'
+  use 'numToStr/Comment.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
