@@ -89,10 +89,20 @@ _G.packer_plugins = {
     path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/neosolarized.nvim",
     url = "https://github.com/svrana/neosolarized.nvim"
   },
+  ["nvim-surround"] = {
+    loaded = true,
+    path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/nvim-surround",
+    url = "https://github.com/kylechui/nvim-surround"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["vim-ReplaceWithRegister"] = {
+    loaded = true,
+    path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/vim-ReplaceWithRegister",
+    url = "https://github.com/inkarkat/vim-ReplaceWithRegister"
   },
   ["vim-tmux-navigator"] = {
     loaded = true,
