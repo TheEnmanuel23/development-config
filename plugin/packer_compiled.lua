@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim",
     url = "https://github.com/tjdevries/colorbuddy.nvim"
   },
+  ["maximize.nvim"] = {
+    loaded = true,
+    path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/maximize.nvim",
+    url = "https://github.com/declancm/maximize.nvim"
+  },
   ["neosolarized.nvim"] = {
     loaded = true,
     path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/neosolarized.nvim",
