@@ -47,6 +47,11 @@ return require('packer').startup(function(use)
 
   use  'nvim-lualine/lualine.nvim'
 
+  use {
+    'nvim-telescope/telescope.nvim', tag = '0.1.1'
+  }
+  use 'nvim-telescope/telescope-file-browser.nvim'
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then
