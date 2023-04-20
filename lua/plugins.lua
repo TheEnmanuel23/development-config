@@ -61,8 +61,8 @@ return require('packer').startup(function(use)
   use "L3MON4D3/LuaSnip"
   use 'saadparwaiz1/cmp_luasnip' 
   use "rafamadriz/friendly-snippets"
- 
-  -- managing & installing lsp servers
+
+  -- managing & installing lsp servers, linters & formatters
   use "williamboman/mason.nvim"
   use "williamboman/mason-lspconfig.nvim"
 
@@ -76,6 +76,10 @@ return require('packer').startup(function(use)
     'nvim-treesitter/nvim-treesitter',
     run = ':TSUpdate'
   }
+
+  -- formatting and linting
+  use 'jose-elias-alvarez/null-ls.nvim'
+  use "jay-babu/mason-null-ls.nvim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
