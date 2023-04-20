@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/hop.nvim",
     url = "https://github.com/phaazon/hop.nvim"
   },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   ["maximize.nvim"] = {
     loaded = true,
     path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/maximize.nvim",
@@ -103,6 +108,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/nvim-surround",
     url = "https://github.com/kylechui/nvim-surround"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/Users/enmanueljarquin/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
