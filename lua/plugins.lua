@@ -53,7 +53,6 @@ return require('packer').startup(function(use)
   use 'nvim-telescope/telescope-file-browser.nvim'
 
   -- autocompletion
-  use 'hrsh7th/cmp-nvim-lsp'        -- nvim-cmp source for neovim's built-in LSP
   use 'hrsh7th/cmp-buffer'          -- nvim-cmp source for buffer words
   use 'hrsh7th/cmp-path'          -- nvim-cmp source for buffer words
   use 'hrsh7th/nvim-cmp'
@@ -62,7 +61,21 @@ return require('packer').startup(function(use)
   use "L3MON4D3/LuaSnip"
   use 'saadparwaiz1/cmp_luasnip' 
   use "rafamadriz/friendly-snippets"
+ 
+  -- managing & installing lsp servers
+  use "williamboman/mason.nvim"
+  use "williamboman/mason-lspconfig.nvim"
 
+  -- configuring lsp servers
+  use 'neovim/nvim-lspconfig'    
+  use 'hrsh7th/cmp-nvim-lsp' -- nvim-cmp source for neovim's built-in LSP
+  use 'glepnir/lspsaga.nvim' -- enheanced UI for LSP experience
+  use 'onsails/lspkind-nvim' -- used to add vscode like icons to autocompletion windows
+  use 'jose-elias-alvarez/typescript.nvim' -- add further functionalities for typescript server like renaming a file or updating imports, etc
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate'
+  }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
