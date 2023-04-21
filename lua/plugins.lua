@@ -85,6 +85,8 @@ return require('packer').startup(function(use)
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
 
+  use 'norcalli/nvim-colorizer.lua'
+
   use 'lewis6991/gitsigns.nvim'
   
   -- Automatically set up your configuration after cloning packer.nvim
