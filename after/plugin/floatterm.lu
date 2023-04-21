@@ -1,0 +1,18 @@
+local status, floatterm = pcall(require, 'floatterm')
+
+if (not status) then return end
+
+-- let g:floaterm_keymap_toggle = '<F1>'
+-- let g:floaterm_keymap_next   = '<F2>'
+-- let g:floaterm_keymap_prev   = '<F3>'
+-- let g:floaterm_keymap_new    = '<F4>'
+-- let g:floaterm_keymap_kill   = '<F5>'
+
+local keymap = vim.keymap
+
+keymap.set('n', '<F1>', ':FloatermToggle --autoclose=0<Cr>')
+keymap.set('n', '<F1>', "<C-\\><C-n>:FloatermToggle<CR>")
+keymap.set('n', '<F2>', ':FloatermNext<Cr>')
+keymap.set('n', '<F3>', ':FloatermPrev<Cr>')
+keymap.set('n', '<F4>', ':FloatermNew<Cr>')
+keymap.set('n', '<F5>', ':FloatermPrev<Cr>')
