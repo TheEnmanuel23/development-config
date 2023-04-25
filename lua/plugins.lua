@@ -95,6 +95,11 @@ return require('packer').startup(function(use)
 
   use { "bluz71/vim-nightfly-colors", as = "nightfly" }
 
+  use {
+    "startup-nvim/startup.nvim",
+    requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
+  }
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then
