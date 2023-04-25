@@ -33,15 +33,15 @@ keymap.set('n', 'sv', ':vsplit<Return><C-w>W')
 keymap.set('n', 'sx', ':close<CR>')
 
 -- Move window
--- keymap.set('n', '<Space>', '<C-w>W')
--- keymap.set('', 's<left>', '<C-w>h')
--- keymap.set('', 's<up>', '<C-w>k')
--- keymap.set('', 's<down>', '<C-w>j')
--- keymap.set('', 's<right>', '<C-w>l')
--- keymap.set('', 'sh', '<C-w>h')
--- keymap.set('', 'sk>', '<C-w>k')
--- keymap.set('', 'sj', '<C-w>j')
--- keymap.set('', 'sl', '<C-w>k')
+keymap.set('n', '<Space>', '<C-w>W')
+keymap.set('', 'w<left>', '<C-w>h')
+keymap.set('', 'w<up>', '<C-w>k')
+keymap.set('', 'w<down>', '<C-w>j')
+keymap.set('', 'w<right>', '<C-w>l')
+keymap.set('', 'wh', '<C-w>h')
+keymap.set('', 'wk>', '<C-w>k')
+keymap.set('', 'wj', '<C-w>j')
+keymap.set('', 'wl', '<C-w>k')
 
 
 -- Resize window
