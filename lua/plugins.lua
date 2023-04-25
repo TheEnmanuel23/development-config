@@ -93,6 +93,7 @@ return require('packer').startup(function(use)
   -- use 'voldikss/vim-floaterm'
   use "numToStr/FTerm.nvim" -- alternatiy to floatterm but basic options
 
+  use { "bluz71/vim-nightfly-colors", as = "nightfly" }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
