@@ -11,7 +11,10 @@ null_ls.setup {
   sources = {
     formatting.prettier,
     formatting.stylua,
-    diagnostics.eslint_d
+    diagnostics.eslint_d,
+    null_ls.builtins.formatting.prettier.with({
+      extra_filetypes = { "svelte" }
+    })
   },
   on_attach = function(current_client, bufnr)
     if current_client.supports_method("textDocument/formatting") then
