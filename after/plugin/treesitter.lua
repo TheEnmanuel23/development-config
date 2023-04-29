@@ -18,5 +18,6 @@ ts.setup {
     'css',
     'typescript',
     'graphql',
+    'svelte'
   }
 }

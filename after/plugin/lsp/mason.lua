@@ -16,7 +16,8 @@ mason_lspconfig.setup {
     "cssls",
     "emmet_ls",
     "html",
-    "lua_ls"
+    "lua_ls",
+    "svelte"
   },
   automatic_installation = true
 }
