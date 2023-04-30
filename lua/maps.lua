@@ -17,7 +17,7 @@ keymap.set('n', '-', '<C-x>')
 keymap.set('n', 'dw', 'vb"_d')
 
 -- Select all
-keymap.set('n', '<C-a>', 'gg<S-v>G')
+keymap.set('n', '<C-s>', 'gg<S-v>G')
 
 -- New tab
 keymap.set('n', 'to', ':tabnew<CR>', { silent = true })
@@ -45,8 +45,8 @@ keymap.set('', 'wl', '<C-w>k')
 
 
 -- Resize window
-keymap.set('n', '<C-w><left>', '<C-w>>')
-keymap.set('n', '<C-w><right>', '<C-w><')
-keymap.set('n', '<C-w><up>', '<C-w>+')
-keymap.set('n', '<C-w><down>', '<C-w>-')
+keymap.set('n', '<Space>l', '<C-w>>')
+keymap.set('n', '<Space>h', '<C-w><')
+keymap.set('n', '<Space>k', '<C-w>+')
+keymap.set('n', '<Space>j', '<C-w>-')
 
