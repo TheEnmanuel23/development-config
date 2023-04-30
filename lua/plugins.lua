@@ -91,7 +91,8 @@ return require('packer').startup(function(use)
 
   
   -- use 'voldikss/vim-floaterm'
-  use "numToStr/FTerm.nvim" -- alternatiy to floatterm but basic options
+  -- use "numToStr/FTerm.nvim" -- alternatiy to floatterm but basic options
+  use "akinsho/toggleterm.nvim"
 
   use { "bluz71/vim-nightfly-colors", as = "nightfly" }
 
