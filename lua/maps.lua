@@ -50,3 +50,7 @@ keymap.set('n', '<Space>h', '<C-w><')
 keymap.set('n', '<Space>k', '<C-w>+')
 keymap.set('n', '<Space>j', '<C-w>-')
 
+-- save and quit
+keymap.set('n', '<leader>w', ':w<Cr>')
+keymap.set('n', '<leader>x', ':q<Cr>')
+keymap.set('n', '<space>wq', ':wq<Cr>')
