@@ -17,7 +17,8 @@ mason_lspconfig.setup {
     "emmet_ls",
     "html",
     "lua_ls",
-    "svelte"
+    "svelte",
+    "tailwindcss"
   },
   automatic_installation = true
 }
