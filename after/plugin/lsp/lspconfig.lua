@@ -5,6 +5,7 @@ if (not status) then return end
 local protocol = require('vim.lsp.protocol')
 
 nvim_lsp.tsserver.setup {}
+nvim_lsp.tailwindcss.setup {}
 
 nvim_lsp.lua_ls.setup {
   -- on_attach = on_attach,
